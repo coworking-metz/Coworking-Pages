@@ -1,1 +1,0 @@
-wget --spider -q https://webhooks.coworking-metz.fr/cloudflare/purge
