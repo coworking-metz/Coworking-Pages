@@ -1,3 +1,3 @@
-// https://webhooks.coworking-metz.fr/cloudflare/purge
+console.log('Vider cache cloudflare');
+fetch('https://webhooks.coworking-metz.fr/cloudflare/purge');
 
-console.log('Hello from JavaScript!');
