@@ -1,0 +1,18 @@
+@font-face {
+    font-display: swap;
+    font-family: 'eveleth-clean-regular';
+    src: url('/fonts/eveleth-clean-regular.woff2') format('woff2'),
+        url('/fonts/eveleth-clean-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-display: swap;
+    font-family: 'eveleth-clean-thin';
+    src: url('/fonts/eveleth-clean-thin.woff2') format('woff2'),
+        url('/fonts/eveleth-clean-thin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
