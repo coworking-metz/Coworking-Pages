@@ -16,3 +16,13 @@
     font-style: normal;
 
 }
+
+@font-face {
+    font-display: swap;
+    font-family: 'Akzidenz-Grotesk-Light';
+    src: url('/fonts/Akzidenz-Grotesk-Light.woff2') format('woff2'),
+        url('/fonts/Akzidenz-Grotesk-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
