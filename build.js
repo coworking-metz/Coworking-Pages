@@ -15,7 +15,7 @@ const modelFilePath = path.join(directoryPath, 'index-modele.html');
 
 // Function to insert links into the model HTML content
 function insertLinksIntoModel(modelContent, files) {
-  const links = files.map(file => `<li><a href="${file}">${file}</a></li>`).join('\n');
+  const links = files.filter(file=>file!='index.html').map(file => `<li><a href="${file}">${file.split('.')[0]}</a></li>`).join('\n');
   // Assuming the model HTML has a marker where the list should be inserted
   const updatedContent = modelContent.replace('<!-- Links -->', `<ul>\n${links}\n</ul>`);
   return updatedContent;
