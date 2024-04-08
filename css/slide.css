@@ -1,24 +1,10 @@
-html,
-body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
 
 body {
     font-family: 'Akzidenz-Grotesk-Light';
     background-color: white;
 }
 
-body:before {
-    opacity: .5;
-    inset: 0;
-    position: fixed;
-    content: '';
-    background: url(/images/fond.jpg);
-    background-size: cover;
 
-}
 
 h1 {
     font-weight: 100;

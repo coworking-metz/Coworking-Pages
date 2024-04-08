@@ -1,3 +1,25 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body:before {
+    opacity: .5;
+    inset: 0;
+    position: fixed;
+    content: '';
+    background: url(/images/fond.jpg);
+    background-size: cover;
+
+}
+
 a {
     color:inherit
 }

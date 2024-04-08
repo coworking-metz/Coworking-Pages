@@ -1,0 +1,8 @@
+.events .card-image img{
+    width: 100% !important;
+    height: auto !important;
+    max-width: initial !important;
+    max-height: initial !important;
+    aspect-ratio: 16/9 !important;
+    object-fit: cover !important;
+}
