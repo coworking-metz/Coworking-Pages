@@ -2,7 +2,12 @@
     width: 100% !important;
     height: auto !important;
     max-width: initial !important;
-    max-height: initial !important;
+    max-height: 50vh !important;
     aspect-ratio: 16/9 !important;
     object-fit: cover !important;
+}
+
+.events .content {
+    white-space: preserve;
+    line-height: .9em;
 }

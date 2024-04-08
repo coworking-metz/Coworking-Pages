@@ -35,9 +35,7 @@
                 </div>
             </div>
 
-            <div class="content">
-             ${event.description}
-            </div>
+            <div class="content">${event.description}</div>
         </div>
     </div>`;
 
