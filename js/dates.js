@@ -23,3 +23,12 @@ function isDateInFuture(isoDateString) {
     dateToCheck.setHours(0, 0, 0, 0);
     return dateToCheck > now;
 }
+
+function isDateNotAfterTenDays(isoDateString) {
+    const now = new Date();
+    const tenDaysLater = new Date(now.getTime() + 10 * 24 * 60 * 60 * 1000); // Ajoute 10 jours à la date actuelle
+    const dateToCheck = new Date(isoDateString);
+    
+    return dateToCheck <= tenDaysLater;
+  }
+  
