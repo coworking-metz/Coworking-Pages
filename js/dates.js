@@ -24,9 +24,9 @@ function isDateInFuture(isoDateString) {
     return dateToCheck > now;
 }
 
-function isDateNotAfterTenDays(isoDateString) {
+function isDateNear(isoDateString, days=7) {
     const now = new Date();
-    const tenDaysLater = new Date(now.getTime() + 10 * 24 * 60 * 60 * 1000); // Ajoute 10 jours à la date actuelle
+    const tenDaysLater = new Date(now.getTime() + days * 24 * 60 * 60 * 1000); // Ajoute 10 jours à la date actuelle
     const dateToCheck = new Date(isoDateString);
     
     return dateToCheck <= tenDaysLater;

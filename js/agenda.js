@@ -4,7 +4,7 @@
     document.body.addEventListener('click', chargerEvents)
     function chargerEvents() {
         fetch('https://tickets.coworking-metz.fr/api/calendar/events?key=bupNanriCit1').then(response => response.json()).then(events => {
-            events = events.filter(event => event.calendar == 'COWORKING' && isDateInFuture(event.start) && isDateNotAfterTenDays(event.start));
+            events = events.filter(event => event.calendar == 'COWORKING' && isDateInFuture(event.start) && isDateNear(event.start));
             afficherEvents([events[Math.floor(Math.random() * events.length)]]);
         })
     }
