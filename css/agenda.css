@@ -9,5 +9,5 @@
 
 .events .content {
     white-space: preserve;
-    line-height: .9em;
+    /* line-height: .9em; */
 }
