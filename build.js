@@ -1,9 +1,6 @@
 const fs = require('fs');
 const path = require('path');
 
-console.log('Vider cache cloudflare');
-fetch('https://webhooks.coworking-metz.fr/cloudflare/purge');
-
 
 console.log('Build du fichier index');
 
