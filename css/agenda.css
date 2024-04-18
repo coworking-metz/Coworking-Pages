@@ -15,7 +15,7 @@
 }
 
 .agenda .titre {
-    font-family: 'police-grasse';
+    font-family: 'police-grasse', Impact;
     font-variant: small-caps;
     display: flex;
     align-items: center;
@@ -52,12 +52,12 @@
     position: absolute;
     z-index: 1;
     inset: 0;
-    font-family: 'police-grasse';
+    font-family: 'police-grasse', Impact;
     font-variant: small-caps;
 }
 
 .event time {
-    font-family: 'police-grasse';
+    font-family: 'police-grasse', Impact;
     font-variant: small-caps;
 }
 
