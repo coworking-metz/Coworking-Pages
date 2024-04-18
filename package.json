@@ -4,8 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "node build.js"
+    "build": "node build.js",
+    "dev": "live-server ."
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
 }

@@ -17,6 +17,7 @@ body:before {
     content: '';
     background: url(/images/fond.jpg);
     background-size: cover;
+    z-index: -1;
 
 }
 
